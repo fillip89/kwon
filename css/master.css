@@ -1,0 +1,79 @@
+*{
+  font-family: 'Nanum Gothic', sans-serif;
+}
+body{
+  margin: auto;
+  position: relative;
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+a{
+  text-decoration: none;
+  color: #ff7675;
+}
+ul.fixedNav{
+  position: fixed;
+  top: 0;
+  padding: 10px;
+  background-color: #2d3436;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+ul.fixedNav li{
+  display: inline;
+  list-style: none;
+  margin: 0 20px;
+  font-weight: 700;
+}
+
+
+
+
+footer a{
+  position: fixed;
+  bottom: 0;
+  background-color: #2d3436;
+  color: #ff7675;
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+  padding: 10px;
+  box-sizing: border-box;
+  animation: footerColor 4s infinite;
+  -webkit-animation: footerColor 4s infinite;
+  -ms-animation: footerColor 4s infinite;
+  -moz-animation: footerColor 4s infinite;
+  -o-animation: footerColor 4s infinite;
+}
+@keyframes footerColor {
+  0%{color: #ff7675; border-color: #ff7675;}
+  33%{color: #74b9ff; border-color: #74b9ff;}
+  66%{color: #00cec9; border-color: #00cec9;}
+  100%{color: #ff7675; border-color: #ff7675;}
+}
+-webkit-@keyframes footerColor {
+  0%{color: #ff7675; border-color: #ff7675;}
+  33%{color: #74b9ff; border-color: #74b9ff;}
+  66%{color: #00cec9; border-color: #00cec9;}
+  100%{color: #ff7675; border-color: #ff7675;}
+}
+-ms-@keyframes footerColor {
+  0%{color: #ff7675; border-color: #ff7675;}
+  33%{color: #74b9ff; border-color: #74b9ff;}
+  66%{color: #00cec9; border-color: #00cec9;}
+  100%{color: #ff7675; border-color: #ff7675;}
+}
+-moz-@keyframes footerColor {
+  0%{color: #ff7675; border-color: #ff7675;}
+  33%{color: #74b9ff; border-color: #74b9ff;}
+  66%{color: #00cec9; border-color: #00cec9;}
+  100%{color: #ff7675; border-color: #ff7675;}
+}
+-o-@keyframes footerColor {
+  0%{color: #ff7675; border-color: #ff7675;}
+  33%{color: #74b9ff; border-color: #74b9ff;}
+  66%{color: #00cec9; border-color: #00cec9;}
+  100%{color: #ff7675; border-color: #ff7675;}
+}
