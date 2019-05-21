@@ -6,8 +6,9 @@ div.bodyBackgroundImg{
   height: 100%;
   position: fixed;
   top: 39px;
-  opacity: 0.2;
+  opacity: 0.3;
   max-width: 425px;
+  z-index: -1;
 }
 
 
