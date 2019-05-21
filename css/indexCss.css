@@ -8,7 +8,6 @@ div.bodyBackgroundImg{
   top: 39px;
   opacity: 0.2;
   max-width: 425px;
-  z-index: -1;
 }
 
 
@@ -21,6 +20,23 @@ div.mainCategory{
   box-sizing: border-box;
   margin-top: 100px;
 }
+
+.imageDark{
+  position: relative;
+}
+.imageDark::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  width: 95%;
+  margin: auto;
+  border-radius: 10px;
+}
+
 div.mainCategorys{
   background-size: cover;
   background-repeat: no-repeat;
@@ -38,11 +54,54 @@ div.mainCategorys{
   background-image: url('../images/maincover2.jpg');
 }
 div.mainCategorys h3{
+  position: absolute;
   margin: 0;
   color: white;
 }
 div.mainCategorys p{
+  position: absolute;
+  top: 50px;
   color: white;
   font-size: 15px;
   margin: 5px 0;
+}
+div.mainCategorys i{
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+  -webkit-animation: categoryI 2s infinite;
+  -ms-animation: categoryI 2s infinite;
+  -moz-animation: categoryI 2s infinite;
+  -o-animation: categoryI 2s infinite;
+  animation: categoryI 2s infinite;
+}
+-webkit-@keyframes categoryI {
+  0%{padding-right: 10px;}
+  33%{color: #74b9ff;}
+  66%{color: #00cec9;}
+  100%{color: #ff7675;}
+}
+-ms-@keyframes categoryI {
+  0%{padding-right: 10px;}
+  33%{color: #74b9ff;}
+  66%{color: #00cec9;}
+  100%{color: #ff7675;}
+}
+-moz-@keyframes categoryI {
+  0%{padding-right: 10px;}
+  33%{color: #74b9ff;}
+  66%{color: #00cec9;}
+  100%{color: #ff7675;}
+}
+-o-@keyframes categoryI {
+  0%{padding-right: 10px;}
+  33%{color: #74b9ff;}
+  66%{color: #00cec9;}
+  100%{color: #ff7675;}
+}
+@keyframes categoryI {
+  0%{padding-right: 10px;}
+  33%{color: #74b9ff;}
+  66%{color: #00cec9;}
+  100%{color: #ff7675;}
 }

@@ -12,22 +12,66 @@ a{
   color: #ff7675;
 }
 ul.fixedNav{
+  list-style: none;
   position: fixed;
   top: 0;
-  padding: 10px;
-  background-color: #2d3436;
+  padding: 0;
   margin: 0;
+  background-color: #2d3436;
   width: 100%;
   text-align: center;
   box-sizing: border-box;
 }
 ul.fixedNav li{
   display: inline;
-  list-style: none;
-  margin: 0 20px;
+  float: left;
+  width: 33.33%;
   font-weight: 700;
+  box-sizing: border-box;
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+  padding: 10px 0 10px 0;
 }
-
+ul.fixedNav li.rightMenu{
+  border-right: none;
+}
+ul.fixedNav li a{
+  animation: navColor 4s infinite;
+  -webkit-animation: navColor 4s infinite;
+  -ms-animation: navColor 4s infinite;
+  -moz-animation: navColor 4s infinite;
+  -o-animation: navColor 4s infinite;
+}
+-webkit-@keyframes navColor {
+  0%{color: #ff7675;}
+  33%{color: #74b9ff;}
+  66%{color: #00cec9;}
+  100%{color: #ff7675;}
+}
+-ms-@keyframes navColor {
+  0%{color: #ff7675;}
+  33%{color: #74b9ff;}
+  66%{color: #00cec9;}
+  100%{color: #ff7675;}
+}
+-moz-@keyframes navColor {
+  0%{color: #ff7675;}
+  33%{color: #74b9ff;}
+  66%{color: #00cec9;}
+  100%{color: #ff7675;}
+}
+-o-@keyframes navColor {
+  0%{color: #ff7675;}
+  33%{color: #74b9ff;}
+  66%{color: #00cec9;}
+  100%{color: #ff7675;}
+}
+@keyframes navColor {
+  0%{color: #ff7675;}
+  33%{color: #74b9ff;}
+  66%{color: #00cec9;}
+  100%{color: #ff7675;}
+}
 
 
 
@@ -46,12 +90,6 @@ footer a{
   -ms-animation: footerColor 4s infinite;
   -moz-animation: footerColor 4s infinite;
   -o-animation: footerColor 4s infinite;
-}
-@keyframes footerColor {
-  0%{color: #ff7675; border-color: #ff7675;}
-  33%{color: #74b9ff; border-color: #74b9ff;}
-  66%{color: #00cec9; border-color: #00cec9;}
-  100%{color: #ff7675; border-color: #ff7675;}
 }
 -webkit-@keyframes footerColor {
   0%{color: #ff7675; border-color: #ff7675;}
@@ -72,6 +110,12 @@ footer a{
   100%{color: #ff7675; border-color: #ff7675;}
 }
 -o-@keyframes footerColor {
+  0%{color: #ff7675; border-color: #ff7675;}
+  33%{color: #74b9ff; border-color: #74b9ff;}
+  66%{color: #00cec9; border-color: #00cec9;}
+  100%{color: #ff7675; border-color: #ff7675;}
+}
+@keyframes footerColor {
   0%{color: #ff7675; border-color: #ff7675;}
   33%{color: #74b9ff; border-color: #74b9ff;}
   66%{color: #00cec9; border-color: #00cec9;}
