@@ -11,11 +11,27 @@ div.bodyBackgroundImg{
   z-index: -1;
 }
 
-
 div.mainDescription{
   text-align: center;
   margin: 0 30px;
 }
+
+div.callBannerBox{
+  width: 100%;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+div.callBannerBox a{
+  color: #fffa65;
+  font-size: 15px;
+}
+div.callBannerBox a i{
+  color: #ff7675;
+}
+
 
 div.mainCategory{
   box-sizing: border-box;
