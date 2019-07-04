@@ -70,6 +70,9 @@ div.mainCategorys{
 #leging{
   background-image: url('../images/maincover2.jpg');
 }
+#ten{
+  background-image: url('../images/maincover3.jpg');
+}
 div.mainCategorys h3{
   position: absolute;
   margin: 0;
