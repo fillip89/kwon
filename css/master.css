@@ -21,6 +21,7 @@ ul.fixedNav{
   width: 100%;
   text-align: center;
   box-sizing: border-box;
+  z-index: 1;
 }
 ul.fixedNav li{
   display: inline;
