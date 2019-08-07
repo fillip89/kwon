@@ -73,6 +73,12 @@ div.mainCategorys{
 #ten{
   background-image: url('../images/maincover3.jpg');
 }
+#hard{
+  background-image: url('../images/maincover4.jpg');
+}
+#full{
+  background-image: url('../images/maincover5.jpg');
+}
 div.mainCategorys h3{
   position: absolute;
   margin: 0;
@@ -83,7 +89,7 @@ div.mainCategorys p{
   top: 50px;
   color: white;
   font-size: 15px;
-  margin: 5px 0;
+  margin: 5px 35px 5px 0;
 }
 div.mainCategorys i{
   position: absolute;
